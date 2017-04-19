@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<title>Suave Bajaj</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="https://maxst.icons8.com/favicon.ico">
+  <script type="./text/javascript" src="./js/jquery-2.1.4.min.js"></script>
+  <script type="./text/javascript" src="./js/bootstrap.min.js"></script>
+
+<!-- default-css-files -->
+  <link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="./css/circles.css" rel="stylesheet" type="text/css" media="all" />
+<link href="./css/style.css" rel='stylesheet' type='text/css' />
+<link href="./css/try.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="//fonts.googleapis.com/css?family=Text+Me+One|Ranga" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+
+<body class="w3-content" style="max-width:1300px">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- navigation -->
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php">Portfolio</a>
+        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    
+        <div class="collapse navbar-collapse" id="toggle">
+            <ul class="nav navbar-nav navbar-right cl-effect-15">
+        <li class="hidden"><a class="page-scroll" href="#page-top"></a> </li>
+                <li><a class="page-scroll scroll" href="#">Home</a></li>
+                <li><a class="page-scroll scroll" href="#work">Current Status</a></li>
+                <li><a class="page-scroll scroll" href="#work">Resume</a></li>
+                <li><a class="page-scroll scroll" href="#technicalskills">Technical Skills</a></li>
+                <li><a class="page-scroll scroll" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+  </div>
+</nav>
+<!-- //navigation -->
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1><br>Suave Bajaj</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Current Status</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
+      <a href="#technicalskills" class="w3-button w3-black w3-block w3-hover-dark-teal w3-padding-16">Technical Skills</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1><br>About Me</h1>
+      <img src="/my.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+        <p>To work for a company which will help in value addition and serve as a spring board to move ahead in my career by providing me interesting career opportunities and harness the best of my caliber.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h2>Current Status</h2>
+      </div>
+    <div class="w3-row">
+      <!--<div class="w3-half">-->
+        <p><b>B. Tech Computer Science Engg. (6th Sem.)</b></p><br>
+            Model Institute of Engineering & Technology<br> 
+            Jammu<Br>
+            Jammu and Kashmir<br>
+            India<br>
+        </p>
+    </div><br>
+   
+  </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Resume</h2><br>
+      <p>A draft from my CV</p><br>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+          <tr>
+            <th>Degree/Qualifications</th>
+            <th>Name of Institution</th>
+            <th>Percentage</th>
+            <th>Year of Passing</th>
+          </tr>
+          <tr class="w3-white">
+            <td>12th</td>
+            <td>Army Public School Ratnuchak</td>
+            <td>84.2%</td>
+            <td>2014</td>
+          </tr>
+          <tr>
+            <td>10th</td>
+            <td>Army Public School Ratnuchak </td>
+            <td>9.6 CGPA</td>
+            <td>2012</td>
+          </tr>
+          
+        </table>
+        
+
+        
+      </div>
+    </div>
+    <div class="resume"><p>To Download Full Resume Click Below</p><br><a href="/SuaveResume.docx" download>
+    <img  border="0" src="/resume.jpg" alt="Download Full Resume Here" width="50" height="60">
+    </a></div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="technicalskills">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Technical Skills</h1>
+    </div>
+    <div class="w3-padding-64">
+      <p><strong>Tools</strong>     :   MS Office, Turbo C, XAMPP, Android Studio, PyCharm, R Studio<br>
+
+              <p><strong>Language</strong>    :   C, C++, Java, HTML, CSS, JavaScript, Python, R Programming PHP, MYSQL
+  
+             <p><strong>Platform</strong>     :   Windows, Linux, Android, Microprocessor 8085
+
+    </div>
+  </div>
+  <div class="w3-half w3-teal w3-container" style="height:700px" id="contact">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Contact</h1><br>
+      <p class="w3-opacity">GET IN TOUCH</p><br>
+      <form class="w3-container w3-card-2 w3-padding-32 w3-white" action="./contact_me.php" name="cform" method='post' target="_blank">
+        <div class="w3-group">
+          <label>Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Name">
+        </div>
+        <div class="w3-group">
+          <label>Email</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="w3-group">
+          <label>Message</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Message">
+        </div>
+        <button type="submit" class="w3-button w3-right">Send</button>
+      </form>
+      <div class="btnsocial">
+    <a href="http://www.facebook.com/suavebajaj" class="fa fa-facebook"></a>
+    <a href="http://www.twitter.com/suavebajaj" class="fa fa-twitter"></a>
+    <a href="https://plus.google.com/u/0/+SuaveBajaj" class="fa fa-google"></a>
+    <a href="https://www.linkedin.com/in/suave-bajaj-45974baa/" class="fa fa-linkedin"></a>
+  </div>
+    </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+  <div class="maintain"><p>Maintaied and Developed By:</p>
+  <p>Suave Bajaj</p></div>
+  
+</footer>
+
+</body>
+</html>
